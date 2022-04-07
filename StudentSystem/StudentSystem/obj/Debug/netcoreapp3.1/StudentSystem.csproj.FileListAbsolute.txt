@@ -1,0 +1,17 @@
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\bin\Debug\netcoreapp3.1\StudentSystem.exe
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\bin\Debug\netcoreapp3.1\StudentSystem.deps.json
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\bin\Debug\netcoreapp3.1\StudentSystem.runtimeconfig.json
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\bin\Debug\netcoreapp3.1\StudentSystem.runtimeconfig.dev.json
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\bin\Debug\netcoreapp3.1\StudentSystem.dll
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\bin\Debug\netcoreapp3.1\StudentSystem.pdb
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\obj\Debug\netcoreapp3.1\StudentSystem.csproj.AssemblyReference.cache
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\obj\Debug\netcoreapp3.1\StudentSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\obj\Debug\netcoreapp3.1\StudentSystem.AssemblyInfoInputs.cache
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\obj\Debug\netcoreapp3.1\StudentSystem.AssemblyInfo.cs
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\obj\Debug\netcoreapp3.1\StudentSystem.csproj.CoreCompileInputs.cache
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\obj\Debug\netcoreapp3.1\StudentSystem.csproj.CopyComplete
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\obj\Debug\netcoreapp3.1\StudentSystem.dll
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\obj\Debug\netcoreapp3.1\StudentSystem.pdb
+C:\Users\ibrahimaliyevv2\source\repos\FormtasksCsGenericIndexerYieldCollections\StudentSystem\StudentSystem\obj\Debug\netcoreapp3.1\StudentSystem.genruntimeconfig.cache
