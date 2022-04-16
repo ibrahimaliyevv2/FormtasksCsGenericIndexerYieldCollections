@@ -12,7 +12,7 @@ namespace Student2Task
             No = _no;
         }
         private static int _no;
-        public int No { get; set; }
+        public int No { get;}
         public string FullName { get; set; }
 
         public Dictionary<string, double> Exams = new Dictionary<string, double>();
@@ -22,12 +22,27 @@ namespace Student2Task
             Exams.Add(examName, point);
         }
 
-        public GetExamResult(string examName)
+        public void GetExamResult(string examName)
         {
             foreach (var item in Exams)
             {
-                if(item.Value.)
+                if (item.Key == examName)
+                {
+                    Console.WriteLine(item.Value);
+                }
             }
+        }
+
+        public double GetExamAvg()
+        {
+            double sum = 0;
+            int count = 0;
+            foreach (var item in Exams)
+            {
+                sum += item.Value;
+                count++;
+            }
+            return sum / count;
         }
     }
 }
