@@ -4,53 +4,45 @@ using System.Text;
 
 namespace EmployeeDepartmentTask
 {
-    class Department
+    public class Department
     {
-        public string Name { get; set; }
-        List<Employee> Employees = new List<Employee>();
+         public string Name { get; set; }
+        public List<Employee> Employees { get; set; } = new List<Employee>();
 
         public void AddEmployee(Employee employee)
         {
-                foreach (var item in Employees)
-                {
-                if (item.No==employee.No)
-                {
-                    return;
-                }
-                }
-            Employees.Add(employee);
+            if(GetEmployeeNo(employee.No) == null)
+                Employees.Add(employee);
         }
 
-        public void RemoveEmployeeByNo(int no)
+        public Employee GetEmployeeNo(int no)
         {
-            Employee employee = GetEmployeeByNo(no);
-            if (employee != null)
+            foreach (var item in Employees)
+            {
+                if (item.No == no)
+                    return item;
+            }
+
+            return null;
+        }
+
+
+        public void RemoveemployeeByNo(int no)
+        {
+            Employee employee = GetEmployeeNo(no);
+
+            if(employee != null)
             {
                 Employees.Remove(employee);
             }
         }
 
-        public Employee GetEmployeeByNo(int no)
+        public void ChangeEmployeeNo(int oldNo,int newNo)
         {
-            foreach (var item in Employees)
-            {
-                if (item.No == no)
-                {
-                    return item;
-                }
-            }
-            return null;
-        }
+            Employee employee = GetEmployeeNo(oldNo);
 
-        public void ChangeEmployeeNo(int oldNo, int newNo)
-        {
-            foreach (var item in Employees)
-            {
-                if(item.No == oldNo)
-                {
-                    item.No = newNo;
-                }
-            }
+            if (employee != null && GetEmployeeNo(newNo) == null)
+                employee.No = newNo;
         }
     }
 }
