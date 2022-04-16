@@ -7,13 +7,12 @@ namespace EmployeeDepartmentTask
     class Employee
     {
 
-        public Employee()
+  public Employee()
         {
-            _no++;
-            No = _no;
+            _totalCount++;
+            No = _totalCount;
         }
-
-        private static int _no;
+        static int _totalCount;
         public int No { get; set; }
         public string FullName { get; set; }
         public double Salary { get; set; }
