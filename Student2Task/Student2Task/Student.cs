@@ -15,7 +15,7 @@ namespace Student2Task
         public int No { get; set; }
         public string FullName { get; set; }
 
-        Dictionary<string, double> Exams = new Dictionary<string, double>();
+        public Dictionary<string, double> Exams = new Dictionary<string, double>();
 
         public void AddExam(string examName, double point)
         {
